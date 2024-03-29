@@ -9,7 +9,7 @@ on:
       - 'ga-ignore-*'
 
 env:
-  MIRROR_URL: "https://github.com/EpitechPromo2028/B-DOP-200-BDX-2-1-chocolatine-simon.maigrot"
+  MIRROR_URL: "https://github.com/SimonMaigrotEpitech/chocolatine"
   EXECUTABLES: "executable"
 
 jobs:
