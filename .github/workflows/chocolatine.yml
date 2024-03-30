@@ -82,10 +82,3 @@ jobs:
         with:
           target_repo_url: ${{ env.MIRROR_URL }}
           ssh_private_key: ${{ secrets.SECRET }}
-      - name: Stop if suceed
-        run:  |
-          if [ $? -eq 0]; then
-            echo "Push to mirror suceed, stoping execution"
-          exit 0
-          fi
-
